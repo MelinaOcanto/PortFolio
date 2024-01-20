@@ -209,6 +209,10 @@ a:hover{
         
     }
 
+    .tarj:hover{
+        transform: none;
+    }
+
     .contenido {
         text-align: center; /* Centra el contenido en dispositivos móviles */
     }
