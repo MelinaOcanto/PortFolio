@@ -130,10 +130,13 @@ a:hover{
     padding: 20px;
     font-family: "Montserrat";
     font-size: 14px;
+    text-align: justify;
     
 
 }
-
+.contenido ul{
+    padding: 0;
+}
 .contenido li{
     list-style: none;
 }
@@ -191,6 +194,9 @@ a:hover{
 
 
 @media (max-width: 767px) {
+    
+
+
     .presentacion {
         font-size: 2.5em; /* Ajusta el tamaño del texto para dispositivos móviles */
     }
@@ -215,6 +221,10 @@ a:hover{
 
     .contenido {
         text-align: center; /* Centra el contenido en dispositivos móviles */
+    }
+
+    .info{
+        text-align: center;
     }
 
     .iconos img {
