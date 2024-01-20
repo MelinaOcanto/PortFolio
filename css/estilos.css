@@ -214,7 +214,8 @@ a:hover{
     }
 
     .iconos img {
-        width: 50%; /* Ajusta el ancho de las imágenes para pantallas más pequeñas */
+        width: 100%;
+        max-width: 100px;
         margin-bottom: 10px; /* Ajusta el espacio entre las imágenes */
       }
 
