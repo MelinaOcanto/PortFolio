@@ -186,3 +186,29 @@ a:hover{
 .ancla{
     width: 300px;
 }
+
+
+@media (max-width: 767px) {
+    .presentacion {
+        font-size: 2.5em; /* Ajusta el tamaño del texto para dispositivos móviles */
+    }
+
+    .tituloPrincipal {
+        font-size: 6em; /* Ajusta el tamaño del texto para dispositivos móviles */
+        height: auto; /* Ajusta la altura para permitir un mejor centrado vertical */
+    }
+
+    .etiqueta {
+        padding: 10px; /* Reduce el relleno para dispositivos móviles */
+    }
+
+    .tarj img {
+        width: 100%; /* Hace que la imagen ocupe el 100% del ancho del contenedor en dispositivos móviles */
+        height: auto; /* Mantiene la proporción original de la imagen */
+    }
+
+    .contenido {
+        text-align: center; /* Centra el contenido en dispositivos móviles */
+    }
+
+}
