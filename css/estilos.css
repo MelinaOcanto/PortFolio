@@ -140,6 +140,19 @@ a:hover{
 .contenido li{
     list-style: none;
 }
+
+.paginas{
+    text-decoration: none;
+    color: #C74567;
+    font-weight: bold;
+}
+
+.paginas:hover{
+    color: #c74568a0;
+}
+.paginas:visited{
+    color: #9e4567;
+}
 .estudios{
     margin: 50px;
     display: flex;
