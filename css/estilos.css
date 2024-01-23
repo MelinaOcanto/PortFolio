@@ -151,9 +151,7 @@ a:hover{
 .paginas:hover{
     color: #c74568a0;
 }
-.paginas:visited{
-    color: #9e4567;
-}
+
 .estudios{
     margin: 50px;
     display: flex;
